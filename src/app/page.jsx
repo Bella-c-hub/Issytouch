@@ -25,8 +25,8 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row max-w-7xl mx-auto items-center py-10 px-6 gap-8">
-        <div className="w-full md:w-1/2">
+<div className="flex flex-row max-w-7xl mx-auto items-center py-10 px-6 gap-2 sm:gap-6 text-xs sm:text-base md:text-2xl">
+        <div className="w-1/2">
           <img
             src="/cap.jpg"
             width={500}
@@ -36,7 +36,7 @@ const Home = () => {
           />
         </div>
 
-        <div className="text-1xl sm:text-2xl md:text-3xl font-bold text-white w-full md:w-1/2 text-center md:text-left">
+        <div className="w-1/2 text-sm sm:text-2xl md:text-2xl font-bold text-white  text-left">
           <p>
             Let us help you. Do you want feminine or powerful?
             <br />
@@ -50,12 +50,12 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row max-w-7xl mx-auto items-center py-10 px-6 gap-8">
-        <div className="text-white font-bold text-2xl sm:text-2xl md:text-3xl w-full md:w-1/2 text-center md:text-left">
+      <div className="flex flex-row max-w-7xl mx-auto items-center py-10 px-6 gap-2 sm:gap-6 text-xs sm:text-base md:text-2xl">
+        <div className="w-1/2 text-sm sm:text-2xl md:text-2xl font-bold text-white  text-left">
           <p>You could be a boss. You could be unstoppable.</p>
         </div>
 
-        <div className="w-full md:w-1/2">
+                <div className="w-1/2">
           <img
             src="/LOVE.jpg"
             width={500}
