@@ -92,7 +92,7 @@ export default function YourStyle() {
         </div>
 
       <div className="flex justify-center mt-10 bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 rounded-full transition">
- <Link href="/urstyle">
+ <Link href="/contacts">
           Sign in
         </Link>
       </div>
