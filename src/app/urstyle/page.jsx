@@ -1,4 +1,4 @@
-
+import Link from "next/link"; 
 
 import Image from "next/image"
 
@@ -74,6 +74,7 @@ export default function YourStyle() {
          <div className="overflow-hidden rounded-2xl shadow-lg hover:scale-105 transition">
           <Image src="/m dress.jpg" alt="style" width={300} height={300}/>
         </div>
+
         <div className="overflow-hidden rounded-2xl shadow-lg hover:scale-105 transition">
           <Image src="/mafia.jpg" alt="style" width={300} height={300}/>
         </div>
@@ -83,14 +84,20 @@ export default function YourStyle() {
         </div>
 
           <div className="overflow-hidden rounded-2xl shadow-lg hover:scale-105 transition">
-          <Image src="/ʚ♡ɞ.jpg" alt="style" width={300} height={300}/>
+          <Image src="/chain.jpg" alt="style" width={300} height={300}/>  
         </div>
 
  <div className="overflow-hidden rounded-2xl shadow-lg hover:scale-105 transition">
-          <Image src="/c.jpg" alt="style" width={300} height={300}/>
-        </div>
+          <Image src="/c..jpg" alt="style" width={300} height={300}/> 
         </div>
 
+      <div className="flex justify-center mt-10 bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 rounded-full transition">
+ <Link href="/urstyle">
+          Sign in
+        </Link>
+      </div>
+     
+        </div>
       </div>
       </div>
   )
